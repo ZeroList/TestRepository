@@ -1,0 +1,12 @@
+server:
+  port: 8777
+
+spring:
+  activemq:
+    broker-url: tcp://39.108.94.119:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false         #   false == queue    true == topic
+
+myqueue: boot-activemq-queue
